@@ -13,3 +13,9 @@ Hvis i når alle kravene er her nogle bonus krav.
 Man skal kunne søge efter en bestemt blog efter titel
 Man skal kunne klikke ind på en sektion og kun hente de nyeste posts (dem fra dags dato)
 Man skal kunne sortere sine blog posts efter Dato og Navn i en drop down menu. 
+
+
+
+
+
+##### husk at lave kode forklaring under vejs sådan der ikke glemmes hvad koden præcis gør
