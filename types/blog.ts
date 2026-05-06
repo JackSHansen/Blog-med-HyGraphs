@@ -1,8 +1,5 @@
-/**
- * Blog type definitions for HyGraph CMS
- * Defines the structure of blog posts fetched from the API
- */
 
+// Denne fil beskriver strukturen på blogdata, som hentes fra HyGraph.
 export interface BlogDescription {
   text: string;
 }

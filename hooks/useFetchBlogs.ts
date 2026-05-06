@@ -1,7 +1,6 @@
 /**
- * Custom Hook: useFetchBlogs
- * Handles fetching blog posts from HyGraph API
- * Returns loading state, error state, and blog data
+ * Custom hook: useFetchBlogs
+ * Henter blogindlæg fra HyGraph og returnerer data, loading og fejl.
  */
 
 import { useEffect, useState } from 'react';
@@ -21,6 +20,7 @@ export const useFetchBlogs = (): UseFetchBlogsReturn => {
   const [error, setError] = useState<Error | null>(null);
 
   useEffect(() => {
+    // Funktionen kører én gang ved mount og opdaterer tilstanden, når data er klar.
     const fetchBlogs = async () => {
       try {
         setLoading(true);
